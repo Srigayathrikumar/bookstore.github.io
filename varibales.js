@@ -1,0 +1,1 @@
+var primaryColor = "#ee67ff"

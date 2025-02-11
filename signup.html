@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="icon" href="book-solid.ico" />
+</head>
+<body>
+    <div class="signup-container">
+        <div class="signup-box">
+            <h1>Create an Account</h1>
+            <form action="/signup" method="post">
+                <div class="textbox">
+                    <input type="text" placeholder="Username" name="username" required>
+                </div>
+                <div class="textbox">
+                    <input type="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Password" name="password" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Confirm Password" name="confirm_password" required>
+                </div>
+                <button type="submit" class="btn"><a href="index.html">sign up</a></button>
+                <a href="login.html" class="login-link">Already have an account? Log In</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
